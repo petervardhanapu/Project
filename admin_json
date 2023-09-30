@@ -1,0 +1,16 @@
+
+import json
+
+admin={
+    "admin":{
+        "name":"praveen",
+        "contact":"9133009757",
+        "email":"praveenjavadala2000@gmail.com",
+        "password":"Darwin@12345"
+    }
+}
+
+with open ("admin_list.json","w") as file:
+    json.dump(admin,file)
+
+file.close()
